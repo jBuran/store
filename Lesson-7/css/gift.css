@@ -1,0 +1,45 @@
+
+.gift__top h3 {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 140%;
+   text-align: center;
+   color: #333333;
+}
+.gift__top h2 {
+   font-family: "Noto Serif";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+   text-align: center;
+   color: #333333;
+}
+.gift__btns {
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+   gap: 17px;
+}
+.gift__btns button {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #333333;
+   background: #f9f9f9;
+   border: 1px solid #d6d6d6;
+   padding: 17px 55px 17px 54px;
+   transition: 0.8s;
+}
+.gift__btns button:hover {
+   background: #333333;
+   color: #ffffff;
+   cursor: pointer;
+}

@@ -1,0 +1,57 @@
+header {
+   background: #333333;
+}
+.header__content {
+   padding-top: 27px;
+   padding-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header__nav {
+   display: flex;
+   gap: 40px;
+   list-style: none;
+}
+.header__nav li {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   color: #ffffff;
+}
+.header__right {
+   display: flex;
+   align-items: center;
+}
+.icon img {
+   margin-right: 16px;
+}
+.icon {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+}
+.header__right h2 {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   color: #ffffff;
+   margin-left: 40px;
+   margin-right: 44px;
+}
+.icons {
+   display: flex;
+   gap: 30px;
+}
+.burger {
+   display: none;
+}

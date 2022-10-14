@@ -1,0 +1,41 @@
+.about {
+   margin-top: 150px;
+}
+.about__content {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+.about__left {
+   width: 540px;
+}
+.about__left p {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   color: #333333;
+}
+.about__left button {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 140%;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #333333;
+   border: none;
+   background: none;
+   border-bottom: dashed 1px #333333;
+   margin-top: 10px;
+}
+.about__right {
+   display: flex;
+   flex-wrap: wrap;
+   width: 277px;
+}
+.about__card {
+   width: 48%;
+}
